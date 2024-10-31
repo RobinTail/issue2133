@@ -1,0 +1,10 @@
+{
+  "extends": "@tsconfig/node18/tsconfig.json",
+  "compilerOptions": {
+    "module": "ES2022",
+    "moduleResolution": "Bundler",
+    "noImplicitAny": true,
+    "noImplicitOverride": true,
+    "strictNullChecks": true
+  }
+}

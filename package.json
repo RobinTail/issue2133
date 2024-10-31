@@ -1,0 +1,20 @@
+{
+  "name": "express-zod-api-esm-test",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "dependencies": {
+    "@tsconfig/node18": "^18.2.4",
+    "express": "^4",
+    "express-zod-api": "^20.15.2",
+    "http-errors": "^2.0.0",
+    "typescript": "^5.6.3",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.2"
+  },
+  "scripts": {
+    "start": "tsx test.ts"
+  }
+}
